@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="lab04.css" type="text/css" rel="stylesheet"/>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <meta name="description" content="Learn basic HTML"/>
+    <meta name="author" content="Bisrat"/>
+    <meta name="Keywords" content="HTML form"/>
+</head>
+<body>
+    <div class="nav">
+        <h2>Workshop Registration</h1>
+       
+    </div>
+    <div class="container">
+        <form action="#" method="POST">
+            <div class="maindiv">
+                <div class="left_part">
+                    <ul>
+                        <li><p class="subtitle">Register now while seats are available!</p></li>
+                        <li><label for="fn">First Name<span class="required">*</span></label><input type="text" id="fn" required/></li>
+                        <li><label for="ln">Last Name<span class="required">*</span></label><input type="text" id="ln" required/></li>
+                        <li><label for="coin">Company/Institution<span class="required">*</span></label><input type="text" id="coin" required/></li>
+                        <li><label for="addr">Address<span class="required">*</span></label><textarea id="addr" required></textarea></li>
+                        <li><label for="ci">City</label><input type="text" id="ci"/></li>
+                        <li><label for="pr">State/Province/Region</label><select>
+                            <option value="" selected disabled hidden>Choose one</option>
+                            <option>Alabama</option>
+                            <option>Amazonas</option>
+                            <option>Arizona</option>
+                            <option>Carchi</option>
+                            <option>Guayas</option>
+                            <option>Iowa</option>
+                            <option>Pichincha</option>
+                            <option>Rio de Janeiro</option>
+                            <option>Rio Grande do Sul</option>
+                        </select></li>
+                        <li><label for="co">Country</label><select id="co">
+                            <option value="" selected disabled hidden>Choose one</option>
+                            <option>Brazil</option>
+                            <option>Ecuador</option>
+                            <option>United States</option>
+                        </select></li>
+                        <li><label for="em">Email<span class="required">*</span></label><input type="text" id="em" required/></li>
+                        <li><label for="pn">Phone Number<span class="required">*</span></label><input type="text" id="pn" required/></li>
+                    </ul>
+                </div>
+                <div class="right_part">
+                    <ul>
+                        <li><p class="subtitle">Lunch</p></li>
+                        <li><label for="mp">Meal Preference</label><select id="mp">
+                            <option value="" selected disabled hidden>Choose one</option>
+                            <option>Any Diet</option>
+                            <option>Vegetarian</option>
+                            <option>Vegan</option>
+                        </select></li>
+                        <li><p class="subtitle">Payment Details</p></li>
+                        <li><label class="pmode">Payment Mode</label><span class="cboxes">
+                                <span><input type="checkbox"/> Cash</span>
+                                <span><input type="checkbox"/> Cheque</span>
+                                <span><input type="checkbox"/> Demand Draft</span>
+                        </span>
+                        </li>
+                        <li><label for="dc">DD/Cheque No.</label><input type="text" id="dc"/></li>
+                        <li><label for="do">Drawn On (Bank Name)</label><input type="text" id="do"/></li>
+                        <li><label for="pa">Payable at</label><input type="text" id="pa"/></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="buttons">
+                <input type="submit"/>
+                <input type="reset"/>
+            </div>
+        </form>
+    </div>
+
+
+
+</body>
+</html>
